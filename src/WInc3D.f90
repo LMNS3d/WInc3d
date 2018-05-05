@@ -61,9 +61,9 @@
 PROGRAM WInc3D
 
 USE MPI
-#ifdef OPENFAST
-USE FAST_Subs 
-#endif
+!#ifdef OPENFAST
+!USE FAST_Subs 
+!#endif
 
 
 implicit none

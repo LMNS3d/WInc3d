@@ -1,5 +1,4 @@
 # WInc3D
-Wind farm simulator
 
 WInc3D is an open-source wind farm simulator based on incompact3d. 
 
@@ -19,7 +18,7 @@ WInc3D offers a number of turbine parametrisation models including active contro
 however the possibility to couple it with FAST exists via OpenFast.
 More information on OpenFast --> https://github.com/OpenFAST
 
-SHORT NOTICE
--------------
+Notice to users
+----------------
 The present repository is under development and only part of the code is available at the moment.
 

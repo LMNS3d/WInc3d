@@ -13,9 +13,13 @@ SET(VERSION 0.0)
 
 find_package(MPI REQUIRED)
 
-find_package(OPENFAST REQUIRED)
+# Make sure that double precision is used throughout
+add_definitions(-DOUBLE_PREC)
 
-SET(WInc3D_LINK_LIBRARIES ${MPI_Fortran_LIBRARIES})
+#cmakedefine DOUBLE_PREC
+
+SET(WInc3D_LINK_LIBRARIES ${MPI_Fortran_LIBRARIES} ${CMAKE_C_COMPILER})
+
 # Add our local modlues to the module path
 #SET(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake/Modules")
 

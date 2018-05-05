@@ -3,10 +3,9 @@
 ########################################
 
 # Add the source files
-SET(WInc3D_src WInc3D.f90
-    
+SET(WInc3D_src WInc3D.f90    
     #decomp2d files
-            #${SRCDECOMP2D}/decomp_2d.f90
+    #       ${SRCDECOMP2D}/decomp_2d.f90
 )
 
 # Define the executable in terms of the source files
